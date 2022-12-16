@@ -17,7 +17,7 @@ public class ReadJson {
             Path rp = Paths.get("src", "test", "resources");
             String absPath = rp.toFile().getAbsolutePath();
 
-            Structure s = objectMapper.readValue(new File(absPath+File.separator+"myfile.json"), Structure.class);
+            Structure s = objectMapper.readValue(new File(absPath+File.separator+"myfile1.json"), Structure.class);
 
             System.out.println(s);
         }
