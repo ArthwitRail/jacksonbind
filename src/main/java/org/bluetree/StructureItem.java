@@ -6,7 +6,7 @@ import com.fasterxml.jackson.annotation.JsonTypeInfo;
 
 import java.util.List;
 
-@JsonTypeInfo(use= JsonTypeInfo.Id.NAME, include = JsonTypeInfo.As.EXISTING_PROPERTY, property="type", visible = false)
+@JsonTypeInfo(use= JsonTypeInfo.Id.NAME, include = JsonTypeInfo.As.EXISTING_PROPERTY, property="type", visible = true)
 
 @JsonSubTypes({
         @JsonSubTypes.Type(value = Type0StructureItem.class, name="type0"),
@@ -16,10 +16,13 @@ import java.util.List;
 
 public class StructureItem {
 
+    @JsonProperty("children")
     List<StructureItem> children;
 
+    @JsonProperty("name)")
     String name;
 
+    @JsonProperty("type")
     String type;
 
 
