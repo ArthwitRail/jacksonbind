@@ -1,0 +1,82 @@
+{
+  "name": "structname",
+  "type": "function",
+  "children": [
+    {
+      "name": "child_3_0_1",
+      "type": "type0",
+      "children": [
+        {
+          "name": "child_2_0_2",
+          "type": "type0",
+          "children": [
+            {
+              "name": "child_1_0_3",
+              "type": "type0",
+              "children": null
+            },
+            {
+              "name": "child_1_1_4",
+              "type": "type1",
+              "children": null
+            }
+          ]
+        },
+        {
+          "name": "child_2_1_5",
+          "type": "type1",
+          "children": [
+            {
+              "name": "child_1_0_6",
+              "type": "type0",
+              "children": null
+            },
+            {
+              "name": "child_1_1_7",
+              "type": "type1",
+              "children": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "child_3_1_8",
+      "type": "type1",
+      "children": [
+        {
+          "name": "child_2_0_9",
+          "type": "type0",
+          "children": [
+            {
+              "name": "child_1_0_10",
+              "type": "type0",
+              "children": null
+            },
+            {
+              "name": "child_1_1_11",
+              "type": "type1",
+              "children": null
+            }
+          ]
+        },
+        {
+          "name": "child_2_1_12",
+          "type": "type1",
+          "children": [
+            {
+              "name": "child_1_0_13",
+              "type": "type0",
+              "children": null
+            },
+            {
+              "name": "child_1_1_14",
+              "type": "type1",
+              "children": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
