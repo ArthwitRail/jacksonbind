@@ -22,4 +22,9 @@ public class Type0StructureItem extends StructureItem {
         setType0field(type0field);
     }
 
+    public Type0StructureItem() {
+        super();
+    }
+
+
 }

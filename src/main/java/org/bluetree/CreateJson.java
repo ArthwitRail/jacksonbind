@@ -32,6 +32,9 @@ public class CreateJson {
 
             objectMapper.writeValue(new File(outName), s);
 
+            outName = absPath + File.separator + "si_" + args[0];
+            objectMapper.writeValue(new File(outName), new Type0StructureItem("namefield", "type0", null, "fielddatsa"));
+
         } catch (IOException ioe) {
             System.out.println("ioe: " + ioe);
 

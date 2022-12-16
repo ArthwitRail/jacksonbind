@@ -15,6 +15,9 @@ public class Type1StructureItem extends StructureItem {
         setType1field(type1field);
     }
 
+    public Type1StructureItem() {
+        super();
+    }
 
     public String getType1field() {
         return type1field;
